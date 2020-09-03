@@ -4,6 +4,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
 /*http://via.placeholder.com/640x140*/
 @media (min-width: 768px) {
@@ -25,6 +36,10 @@
   max-width: 1600px; /* or 950px */
   padding-left: 0px;
   padding-right: 0px;
+}
+
+.container {
+  padding-top: 50px;
 }
 
 html, body {
@@ -64,7 +79,7 @@ section {
   font-size: 1.4rem;
 }
 .my-4 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Indie Flower', sans-serif;
 }
 
 .heading {
@@ -258,6 +273,44 @@ section .section-title{
   border: 5px solid #fff;
   border-radius: 50%;
 }
+
+
+/*test*/
+.wrapper {
+  column-count: 2;
+  column-gap: 50px;
+  padding: 50px;
+}
+
+p {
+  line-height: 1.6; 
+  font-family: sans-serif;
+  text-align: justify;
+  margin: 0;
+  font-size: 15px;
+}
+
+.star {
+  float: left;
+  width: 250px;
+  shape-outside: url(../img/skydive.gif);
+  shape-margin:20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.moon {
+  border-radius: 50%;
+  height: 200px; 
+  width:200px;
+  background-color: #2badd9;
+  float: right;
+  shape-outside: inset(1% round 50%);
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
