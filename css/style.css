@@ -39,7 +39,21 @@
 }
 
 .container {
-  padding-top: 50px;
+  padding-top: 20px;
+}
+
+.foot {
+  text-align: center;
+}
+
+.pb-3, .py-3 {
+  padding-bottom: 1rem!important;
+  background-color:  white
+}
+
+.pb-5, .py-5 {
+  padding-bottom: 3rem!important;
+  background-color:  white
 }
 
 html, body {
@@ -75,7 +89,7 @@ section {
 .nav-item {
   margin-left: 1em;
   font-family: 'Indie Flower', sans-serif;
-  font-weight: 550;
+  font-weight: 600;
   font-size: 1.4rem;
 }
 .my-4 {
@@ -92,6 +106,10 @@ section {
   font-weight: 550;
 }
 
+.jumbotron {
+  background-color: rgb(201, 182, 207);
+}
+
 .card-body h4 {
   font-family: 'Indie Flower';
   font-weight: 550;
@@ -100,6 +118,8 @@ section {
 
 .display-5 {
   font-family: 'Indie Flower';
+  font-weight: bold;
+  font-size: 50px;
 }
 
 .card-body p {
