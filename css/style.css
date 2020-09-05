@@ -123,6 +123,14 @@ section {
   font-size: 30px;
 }
 
+.card-body h5 {
+  font-family: 'Indie Flower';
+  font-weight: 550;
+  font-size: 25px;
+  padding-bottom: 6px;
+}
+
+
 .display-5 {
   font-family: 'Indie Flower';
   font-weight: bold;
@@ -325,7 +333,6 @@ p {
 .card {
   font-family: Dosis;
 }
-
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
